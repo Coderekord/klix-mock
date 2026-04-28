@@ -1,63 +1,108 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="bs">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Klix</title>
-        <link rel="icon" type="image/png" href="/public/image.png">
-        <meta name="author" content="Malik">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <body>
-        <div class ="header">
-            <div class="header-container"> 
-                <div class="srchbar">
-                    <button class="icon-btn" aria-label="pretraži-tekst">
-                        <i data-lucide="text-search"></i>
-                    </button> 
-                </div>
-                <div class="logo">
-                    <img class="logo-img" src="/public/scitech_transparent.png" alt="Klix SciYech">
-                </div>
-                <nav class="nav">
-                    <a href="#" class="nav-item"><span class="dot" style="background: #e11d48;"></span>Vijesti</a>
-                    <a href="#" class="nav-item"><span class="dot" style="background: #f97316;"></span>Biznis</a>
-                    <a href="#" class="nav-item"><span class="dot" style="background: #22c55e;"></span>Sport</a>
-                    <a href="#" class="nav-item"><span class="dot" style="background: #a855f7;"></span>Magazin</a>
-                    <a href="#" class="nav-item"><span class="dot" style="background: #eab308;"></span>Lifestyle</a>
-                    <a href="#" class="nav-item"><span class="dot" style="background: #06b6d4;"></span>Scitech</a>
-                    <a href="#" class="nav-item"><span class="dot" style="background: #3b82f6;"></span>Auto</a>
-                    <a href="#" class="nav-item"><span class="dot" style="background: #6b7280;"></span>Križaljka</a>
-                    <a href="#" class="nav-item"><span class="dot" style="background: #ec4899;"></span>Posao</a>
-                    <a href="#" class="nav-item"><span class="dot" style="background: #ef4444;"></span>Video</a>
-                </nav>
-                <div class="header-actions">
-                    <button class="icon-btn">
-                        <i data-lucide="pen-line"></i>
-                    </button>
-                    <button class="icon-btn">
-                        <i data-lucide="user"></i>
-                    </button>
-                </div>
-            </div>  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Klix</title>
+    <link rel="icon" type="image/png" href="/public/image.png" />
+    <meta name="author" content="Malik" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <body>
+    <div class="header">
+      <div class="header-container">
+        <div class="srchbar">
+          <button class="icon-btn" aria-label="pretraži-tekst">
+            <i data-lucide="text-search"></i>
+          </button>
         </div>
-        <div class="main-container">
-            <div class="title-container">
-                <h4 class="hypertext">
-                    LANSIRANJE 2028. GODINE
-                </h4>
-                <h1 class="ttl">
-                    NASA želi koristiti flotu dronova MoonFall za izviđanje južnog lunarnog pola
-                </h1>
-            </div>
-            <section class="title-border"></section>
+        <div class="logo">
+          <img
+            class="logo-img"
+            src="/public/scitech_transparent.png"
+            alt="Klix SciYech"
+          />
         </div>
-        <script>
-            lucide.createIcons();
-        </script>
-        <script src="script.js"></script>
-    </body>
-    
+        <nav class="nav">
+          <a href="#" class="nav-item"
+            ><span class="dot" style="background: #e11d48"></span>Vijesti</a
+          >
+          <a href="#" class="nav-item"
+            ><span class="dot" style="background: #f97316"></span>Biznis</a
+          >
+          <a href="#" class="nav-item"
+            ><span class="dot" style="background: #22c55e"></span>Sport</a
+          >
+          <a href="#" class="nav-item"
+            ><span class="dot" style="background: #a855f7"></span>Magazin</a
+          >
+          <a href="#" class="nav-item"
+            ><span class="dot" style="background: #eab308"></span>Lifestyle</a
+          >
+          <a href="#" class="nav-item"
+            ><span class="dot" style="background: #06b6d4"></span>Scitech</a
+          >
+          <a href="#" class="nav-item"
+            ><span class="dot" style="background: #3b82f6"></span>Auto</a
+          >
+          <a href="#" class="nav-item"
+            ><span class="dot" style="background: #6b7280"></span>Križaljka</a
+          >
+          <a href="#" class="nav-item"
+            ><span class="dot" style="background: #ec4899"></span>Posao</a
+          >
+          <a href="#" class="nav-item"
+            ><span class="dot" style="background: #ef4444"></span>Video</a
+          >
+        </nav>
+        <div class="header-actions">
+          <button class="icon-btn">
+            <i data-lucide="pen-line"></i>
+          </button>
+          <button class="icon-btn">
+            <i data-lucide="user"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="main-container">
+      <div class="title-container">
+        <h4 class="hypertext">LANSIRANJE 2028. GODINE</h4>
+        <h1 class="ttl">
+          NASA želi koristiti flotu dronova MoonFall za izviđanje južnog
+          lunarnog pola
+        </h1>
+      </div>
+      <section class="title-border"></section>
+      <div class="main">
+        <img class="rover" src="/public/s11_260427088.jpg" alt="NASA rover" />
+        <p class="text">
+          Prošlog mjeseca, šef NASA-e Jared Isaacman je prekinuo šutnju o
+          planovima svemirske agencije za povratak na Mjesec, pozivajući na
+          veliku reviziju NASA-inog programa Artemis. Jedna od njegovih najava
+          bila je brza serija robotskih misija za izviđanje, provođenje
+          eksperimenata i pripremu za površinske operacije prije bilo kakvog
+          "ponovnog pokretanja" lunarnog istraživanja od strane astronauta 2028.
+          godine.
+        </p>
+        <p class="text">
+          Kao dio NASA-inog događaja Ignition održanog 24. marta, Isaacman je
+          pozvao na uklanjanje nepotrebnih prepreka koje ometaju napredak,
+          rekavši da će agencija "osloboditi radnu snagu i industrijsku moć
+          nacije" da se vrati na lunarnu površinu i izgradi bazu na Mjesecu. "Za
+          svemirske misije za površinsko istraživanje, NASA je u toku
+        </p>
+        <img
+          class="rover"
+          src="/public/fERy8TxP5o93AqaHnmXegB.jpg"
+          alt="rover-flying"
+        />
+      </div>
+    </div>
+    <script>
+      lucide.createIcons();
+    </script>
+    <script src="script.js"></script>
+  </body>
 </html>

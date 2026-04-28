@@ -130,3 +130,20 @@ body {
     margin: 20px 0;
     border-bottom: 1px solid #2a2f3a;
 }
+.rover{
+    min-width: 360px;
+    min-height: 240px
+    max-width: 360px;
+    max-height: 240px;
+    width: auto;
+    height: auto;
+}
+.text{
+    color: #E5E7EB;
+    margin: 16px 0;
+    font-family: ui-sans-serif,system-ui,sans-serif;
+    font-size: 18px;
+    padding-bottom: 10px;
+    line-height: 2rem;
+    
+}
