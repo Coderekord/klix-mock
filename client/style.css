@@ -255,3 +255,61 @@ body {
 .icon{
     margin-left: 64px;
 }
+.comment-share-count{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin: 20px 0;
+    color: #E5E7EB;
+    font-family: ui-sans-serif,system-ui,sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    width: 100%;
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow: break-word;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+.com{
+    items-align: center;
+    text-align: center;
+    gap: 24px;
+    margin-left: 6px;
+    font-size: 12.8px;
+}
+.sc{
+    items-align: center;
+    text-align: center;
+    gap: 24px;
+}
+.comnn{
+    margin-left: 30px;
+    font-size: 
+}
+.share {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    border: 1px solid #3f4147;
+    border-radius: 100px;
+    cursor: pointer;
+    background: none;
+    color: #E5E7EB;
+    font-size: 14px;
+    font-family: ui-sans-serif, system-ui, sans-serif;
+    width: auto;
+    margin: 16px 0;
+    margin-left: 30px;
+}
+
+.share:hover {
+    background: #2a2f3a;
+}
+
+.share svg {
+    width: 16px;
+    height: 16px;
+    stroke: #E5E7EB;
+}
